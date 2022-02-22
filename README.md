@@ -2,17 +2,14 @@
 
 Repositório destinado a salvar os exercícios da matéria de POO da Universidade PUC Minas pedidos pelo professor João Caram.
 
-## Folder Structure
+## Exercício: Microondas
 
-The workspace contains two folders by default, where:
+Implemente uma classe que represente um forno de micro-ondas, com as seguintes características:
+-Um forno de micro-ondas pode ser programado com um temporizador, indicando por quantos minutos e segundos ele deve funcionar.
+-Este forno pode ser desligado a qualquer momento pelo usuário, zerando o temporizador.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Restrições:
+-O forno só pode ser ligado se a porta estiver fechada;
+-Sua porta só pode ser aberta se ele estiver desligado.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+O aparelho sabe ajustar corretamente o temporizador ao ser avisado da passagem do tempo, quando estiver funcionando.
