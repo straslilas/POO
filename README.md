@@ -1,6 +1,6 @@
-## Getting Started
+## Programação Orientada a Objetos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Repositório destinado a salvar os exercícios da matéria de POO da Universidade PUC Minas pedidos pelo professor João Caram.
 
 ## Folder Structure
 
